@@ -552,6 +552,40 @@ p {
 .prices_option_normal-text-container{
     padding-top: 30px;
 }
+
+.prices_option_normal-text::before{
+    width: 7px;
+    height: 7px;
+    content: "\2713";
+    font-size: 7px;
+    padding: 1.5px;
+    color: #55DFB4;
+    margin-right: 5px;
+    border: 1px solid #55DFB4;
+    border-radius: 2px;
+    opacity: 1;
+
+}
+
+.prices_option_normal-text-red::before{
+    content: "x";
+    width: 11px;
+    height: 10px;
+    text-align: center;
+    font: normal normal bold 9px/10px Raleway;
+    letter-spacing: 0px;
+    color: #EB476E;
+    opacity: 1;
+    font-size: 7px;
+    padding: 1.5px;
+    border: 1px solid #EB476E;
+    border-radius: 2px;
+}
+
+.prices_option_normal-text-red {
+
+}
+
 .prices_option_normal-text {
     text-align: center;
     font: normal normal normal 14px/41px Open Sans;
